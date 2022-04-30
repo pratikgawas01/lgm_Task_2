@@ -1,0 +1,103 @@
+body {
+	/* background: url(http://www.inkspilldesign.com/demo/wood-tile-background.jpg); */
+	/* background-color: #424242; */
+	/* font-family: Tahoma; */
+	background: url("cimg.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+.textview{
+  display: inline-block;
+	margin: 2px;
+	width: 198px;
+	height: 29px;
+	font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(233, 230, 225, 0.589);
+	/* background:none */
+	/* border-radius: 10px; */
+	border: none;
+}
+
+.equalButton {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height:91px;
+    outline: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+  
+}
+
+.button {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height: 42px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	outline: none;
+  
+}
+
+.button:active, .allclearButton:active,.equalButton:active{
+    background-color: #3a913d;
+    box-shadow: 0 3px rgb(92, 91, 91);
+    transform: translateY(4px);
+  }
+
+
+
+.button:hover,.equalButton:hover {
+	background-color: #e3a466;
+	box-shadow: 0px 0px 2px #f5af69, inset 0px -20px 1px #f97f05;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #944b03;
+	border-left: 2px solid #9b4f03;
+}
+
+.allclearButton {
+  border-radius: 10px;
+	color: #FFF;
+    margin: 2px;
+	width: 42px;
+	height: 42px;
+	text-shadow: -1px -1px 0px #3c0260;
+	background-color: #c90303;
+	border-top: 2px solid #f98282;
+	border-right: 2px solid #f98888;
+	border-bottom: 2px solid #6a0202;
+	border-left: 2px solid #6e0202;
+	box-shadow: 0px 0px 2px #070707, inset 0px -20px 1px #9c0303;
+	outline: none;
+}
+
+h1{
+	color:#d55506;
+	font-size: 52px;
+    text-justify: newspaper;
+    text-align: center;
+
+}
+.container{
+		background: rgba(126, 122, 122, 0.589);
+		/* background-size: 100px 80px; */
+		background-size: cover;
+		position:absolute;
+        top:50%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%)
+}
+
+
+      
